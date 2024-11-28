@@ -4,7 +4,7 @@
 
 ## API URLs
 
-## text API
+## Test API
 get: http://localhost:8000/fetch -> "showing for test message"
 
 ## Add new user
@@ -31,3 +31,5 @@ body JSON:
     "address": "[Dhaka, Mohakhali](https://www.linkedin.com/in/sayed021/)"
 }``
 
+## Delete User
+put: http://localhost:8000/deleteUser/:id like [[http://localhost:8000/deleteUser/17363849]()](http://localhost:8000/api/user/deleteUser/67487ed44ee003f5bf7ebd3c)
